@@ -1,0 +1,104 @@
+/* Gallery Page Styles */
+
+.gallery-filter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.gallery-card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 250px;
+  cursor: pointer;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.gallery-card:hover .gallery-image {
+  transform: scale(1.05);
+}
+
+.gallery-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  color: white;
+  padding: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-card:hover .gallery-overlay {
+  opacity: 1;
+}
+
+.gallery-caption h6 {
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+}
+
+.gallery-caption p {
+  font-size: 0.85rem;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.video-container {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 300px;
+}
+
+.video-placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.video-placeholder:hover {
+  transform: scale(1.02);
+}
+
+.video-placeholder i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.video-placeholder p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* Modal styles */
+#imageModal .modal-content {
+  background: transparent;
+  border: none;
+}
+
+#imageModal .modal-body {
+  padding: 0;
+}
+
+#modalImage {
+  max-height: 80vh;
+  object-fit: contain;
+}

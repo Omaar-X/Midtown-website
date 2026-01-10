@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | MIDTOWN AABASHON LTD</title>
+  <meta name="description" content="Photo gallery of our projects, site visits, and development progress">
+  
+  <!-- Same CSS and JS links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark main-navbar fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="img/logo.png" alt="MIDTOWN AABASHON LTD Logo" class="brand-logo">
+        <div class="brand-text ms-2">
+          <div class="brand-name-en">MIDTOWN AABASHON LTD</div>
+          <div class="brand-tagline-bn">বসত গড়ার বিশ্বস্ত সঙ্গী</div>
+        </div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="management.html">Management</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item ms-lg-3">
+            <a href="tel:+8801700000000" class="btn btn-call-now">
+              <i class="fa-solid fa-phone me-2"></i>Call Now
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Gallery Header -->
+  <section class="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1>Project Gallery</h1>
+          <p class="lead">Visual journey through our developments</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Filter -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12">
+          <div class="gallery-filter text-center">
+            <button class="filter-btn active" data-filter="all">All Photos</button>
+            <button class="filter-btn" data-filter="site">Site Views</button>
+            <button class="filter-btn" data-filter="progress">Progress</button>
+            <button class="filter-btn" data-filter="handover">Handover</button>
+            <button class="filter-btn" data-filter="events">Events</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="row g-3" id="galleryGrid">
+        <!-- Image 1 -->
+        <div class="col-md-4 col-lg-3 gallery-item site">
+          <div class="gallery-card">
+            <img src="img/pic 1.png" alt="Site View 1" class="gallery-image">
+            <div class="gallery-overlay">
+              <div class="gallery-caption">
+                <h6>Purbachal Site View</h6>
+                <p>Project area showing natural landscape</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image 2 -->
+        <div class="col-md-4 col-lg-3 gallery-item site">
+          <div class="gallery-card">
+            <img src="img/pic 2.png" alt="Site View 2" class="gallery-image">
+            <div class="gallery-overlay">
+              <div class="gallery-caption">
+                <h6>Green Valley Area</h6>
+                <p>Eco-friendly development zone</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image 3 -->
+        <div class="col-md-4 col-lg-3 gallery-item progress">
+          <div class="gallery-card">
+            <img src="img/pic 3.png" alt="Progress 1" class="gallery-image">
+            <div class="gallery-overlay">
+              <div class="gallery-caption">
+                <h6>Road Development</h6>
+                <p>Initial road construction phase</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image 4 -->
+        <div class="col-md-4 col-lg-3 gallery-item progress">
+          <div class="gallery-card">
+            <img src="img/pic 4.png" alt="Progress 2" class="gallery-image">
+            <div class="gallery-overlay">
+              <div class="gallery-caption">
+                <h6>Layout Planning</h6>
+                <p>Survey and demarcation work</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more images as needed -->
+
+      </div>
+
+      <!-- Video Section -->
+      <div class="row mt-5">
+        <div class="col-12">
+          <h3 class="text-center mb-4">Project Videos</h3>
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="video-container">
+                <div class="video-placeholder">
+                  <i class="fa-solid fa-play"></i>
+                  <p>Site Visit Video Tour</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="video-container">
+                <div class="video-placeholder">
+                  <i class="fa-solid fa-play"></i>
+                  <p>Customer Testimonials</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Same Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="footer-brand mb-3">
+            <img src="img/logo.png" alt="Logo" class="footer-logo">
+            <div class="footer-brand-name">MIDTOWN AABASHON LTD</div>
+            <div class="footer-tagline">বসত গড়ার বিশ্বস্ত সঙ্গী</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6>Contact Info</h6>
+          <p><i class="fa-solid fa-phone me-2"></i> +880 1700-000000</p>
+          <p><i class="fa-solid fa-envelope me-2"></i> info@midtowneaabashon.com</p>
+          <div class="social-links mt-3">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom text-center mt-4">
+        <p>&copy; <span id="currentYear"></span> MIDTOWN AABASHON LTD. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div class="modal fade" id="imageModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-body text-center">
+          <img src="" alt="" id="modalImage" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>

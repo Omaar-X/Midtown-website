@@ -1,0 +1,453 @@
+/* management.css - Management Page Specific Styles */
+
+/* Management Header */
+.management-header {
+  background: linear-gradient(135deg, rgba(14, 78, 130, 0.9), rgba(57, 169, 73, 0.85)), 
+              url('../img/hero-land.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0 80px;
+}
+
+.management-header .sub-lead {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-top: 0.5rem;
+}
+
+/* Team Introduction */
+.team-intro {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  color: var(--primary-color);
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  color: var(--text-light);
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* Management Cards */
+.management-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+  position: relative;
+}
+
+.management-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.management-photo {
+  position: relative;
+  height: 280px;
+  overflow: hidden;
+}
+
+.management-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.management-card:hover .management-photo img {
+  transform: scale(1.05);
+}
+
+.management-badge {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, var(--primary-color), var(--accent-color));
+  color: white;
+  padding: 0.8rem 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.management-content {
+  padding: 2rem;
+}
+
+.management-name {
+  color: var(--text-dark);
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.management-designation {
+  color: var(--accent-color);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.management-experience {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.management-experience i {
+  color: var(--accent-color);
+}
+
+.management-bio {
+  color: var(--text-light);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.management-expertise {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.expertise-tag {
+  background: rgba(14, 78, 130, 0.1);
+  color: var(--primary-color);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.management-contact {
+  border-top: 1px solid #eee;
+  padding-top: 1.5rem;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: var(--accent-color);
+}
+
+.contact-link i {
+  font-size: 1rem;
+}
+
+/* Leadership Philosophy */
+.leadership-philosophy {
+  padding: 3rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(240, 248, 255, 0.9));
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.philosophy-card {
+  padding: 2rem;
+  height: 100%;
+}
+
+.philosophy-icon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.philosophy-card h5 {
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.philosophy-card p {
+  color: var(--text-light);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Company Values */
+.company-values-section {
+  padding: 2rem;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.values-timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.values-timeline:before {
+  content: '';
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--primary-color), var(--accent-color));
+}
+
+.value-item {
+  position: relative;
+  padding: 1.5rem 0 1.5rem 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.value-item:last-child {
+  margin-bottom: 0;
+}
+
+.value-number {
+  position: absolute;
+  left: -30px;
+  top: 1.5rem;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.value-content h4 {
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.value-content p {
+  color: var(--text-light);
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Leadership Message */
+.leadership-message {
+  padding: 2rem;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.message-quote {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-dark);
+  border-left: 4px solid var(--accent-color);
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+}
+
+.message-signature {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+}
+
+.message-signature strong {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.message-signature p {
+  color: var(--text-light);
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.message-image {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.message-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Team CTA */
+.team-cta {
+  padding: 3rem;
+  background: linear-gradient(135deg, var(--primary-color), #0a3a66);
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(14, 78, 130, 0.3);
+}
+
+.team-cta h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+.team-cta p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+/* Footer Enhancements */
+.footer-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.footer-contact p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.footer-contact a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-contact a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 991.98px) {
+  .management-photo {
+    height: 250px;
+  }
+  
+  .management-name {
+    font-size: 1.3rem;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .team-cta {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .management-header {
+    padding: 100px 0 60px;
+  }
+  
+  .management-header h1 {
+    font-size: 2rem;
+  }
+  
+  .management-card {
+    margin-bottom: 2rem;
+  }
+  
+  .values-timeline {
+    padding-left: 1.5rem;
+  }
+  
+  .value-item {
+    padding-left: 3rem;
+  }
+  
+  .value-number {
+    left: -25px;
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cta-buttons .btn {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-buttons .btn:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .management-content {
+    padding: 1.5rem;
+  }
+  
+  .management-name {
+    font-size: 1.2rem;
+  }
+  
+  .team-intro {
+    padding: 1.5rem;
+  }
+  
+  .leadership-philosophy {
+    padding: 1.5rem;
+  }
+  
+  .leadership-message {
+    padding: 1.5rem;
+  }
+  
+  .message-quote {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+}

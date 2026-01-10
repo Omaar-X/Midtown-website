@@ -1,0 +1,374 @@
+/* Main CSS for all pages */
+
+/* Variables */
+:root {
+  --primary-color: #0e4e82;
+  --primary-dark: #073357;
+  --accent-color: #39a949;
+  --text-dark: #1b2733;
+  --text-light: #6c757d;
+  --bg-light: #f8f9fa;
+  --white: #ffffff;
+}
+
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', 'Hind Siliguri', sans-serif;
+  color: var(--text-dark);
+  line-height: 1.6;
+  padding-top: 76px; /* For fixed navbar */
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* Navigation */
+.main-navbar {
+  background: linear-gradient(90deg, #0b3d68, #0e4e82);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 0.8rem 0;
+  transition: all 0.3s ease;
+}
+
+.brand-logo {
+  height: 50px;
+  width: auto;
+}
+
+.brand-name-en {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 2px;
+}
+
+.brand-tagline-bn {
+  font-size: 0.75rem;
+  color: #dfefff;
+}
+
+.navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: white;
+}
+
+.btn-call-now {
+  background: white;
+  color: var(--primary-color);
+  border-radius: 50px;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-call-now:hover {
+  background: #f1f5f9;
+  transform: translateY(-2px);
+}
+
+/* Page Header */
+.page-header {
+  background: linear-gradient(135deg, rgba(14, 78, 130, 0.9), rgba(57, 169, 73, 0.8));
+  color: white;
+  padding: 100px 0 60px;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.page-header .lead {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Sections */
+.section-padding {
+  padding: 80px 0;
+}
+
+.bg-light {
+  background-color: var(--bg-light) !important;
+}
+
+/* Buttons */
+.btn-primary-gradient {
+  background: linear-gradient(135deg, var(--accent-color), #2e8b57);
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary-gradient:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(57, 169, 73, 0.3);
+  color: white;
+}
+
+.btn-outline-primary {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  background: transparent;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background: var(--primary-color);
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* Cards */
+.feature-card {
+  padding: 2rem;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-icon {
+  width: 70px;
+  height: 70px;
+  background: rgba(14, 78, 130, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  color: var(--primary-color);
+  font-size: 1.8rem;
+}
+
+.feature-card h5 {
+  margin-bottom: 1rem;
+  color: var(--text-dark);
+}
+
+/* Project Preview Cards */
+.project-preview-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.project-preview-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.project-preview-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-preview-content {
+  padding: 1.5rem;
+}
+
+.project-preview-content h5 {
+  margin-bottom: 0.5rem;
+}
+
+.project-preview-content p {
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+.site-footer {
+  background: #1a2b3c;
+  color: white;
+  padding: 60px 0 30px;
+}
+
+.footer-logo {
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+.footer-brand-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.footer-tagline {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  background: var(--accent-color);
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, rgba(14, 78, 130, 0.9), rgba(57, 169, 73, 0.8)), url('../img/hero-land.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-kicker {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  max-width: 600px;
+}
+
+/* Responsive Design */
+@media (max-width: 991.98px) {
+  .hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .page-header h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body {
+    padding-top: 70px;
+  }
+  
+  .hero-title {
+    font-size: 2.2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  
+  .section-padding {
+    padding: 60px 0;
+  }
+  
+  .page-header {
+    padding: 80px 0 40px;
+  }
+  
+  .page-header h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-title {
+    font-size: 1.8rem;
+  }
+  
+  .hero-kicker {
+    font-size: 0.8rem;
+  }
+  
+  .brand-name-en {
+    font-size: 0.9rem;
+  }
+  
+  .brand-tagline-bn {
+    font-size: 0.7rem;
+  }
+}
