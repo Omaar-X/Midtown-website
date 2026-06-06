@@ -1,0 +1,59 @@
+{
+  "files": [
+    {
+      "file": "css/about.css",
+      "oldBytes": 17174,
+      "newBytes": 12641,
+      "savedBytes": 4533,
+      "savedPercent": 26.39
+    },
+    {
+      "file": "css/contact.css",
+      "oldBytes": 6516,
+      "newBytes": 3902,
+      "savedBytes": 2614,
+      "savedPercent": 40.12
+    },
+    {
+      "file": "css/gallery.css",
+      "oldBytes": 18204,
+      "newBytes": 12715,
+      "savedBytes": 5489,
+      "savedPercent": 30.15
+    },
+    {
+      "file": "css/home.css",
+      "oldBytes": 21120,
+      "newBytes": 15277,
+      "savedBytes": 5843,
+      "savedPercent": 27.67
+    },
+    {
+      "file": "css/management.css",
+      "oldBytes": 7294,
+      "newBytes": 5622,
+      "savedBytes": 1672,
+      "savedPercent": 22.92
+    },
+    {
+      "file": "css/projects.css",
+      "oldBytes": 13937,
+      "newBytes": 9035,
+      "savedBytes": 4902,
+      "savedPercent": 35.17
+    },
+    {
+      "file": "css/style.css",
+      "oldBytes": 11060,
+      "newBytes": 7499,
+      "savedBytes": 3561,
+      "savedPercent": 32.2
+    }
+  ],
+  "totals": {
+    "oldBytes": 95305,
+    "newBytes": 66691,
+    "savedBytes": 28614,
+    "savedPercent": 30.02
+  }
+}

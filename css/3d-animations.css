@@ -1,0 +1,358 @@
+/* ================================================================
+   3D ANIMATIONS — MIDTOWN AABASHON LTD
+   Keyframes, init states, and continuous motion
+   ================================================================ */
+
+/* ================================================================
+   KEYFRAMES — Entry Animations
+   ================================================================ */
+
+@keyframes fadeDepthIn {
+  from {
+    transform: perspective(1200px) translateZ(-280px) rotateX(22deg);
+    opacity: 0;
+  }
+  to {
+    transform: perspective(1200px) translateZ(0) rotateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes flipLeftIn {
+  from {
+    transform: perspective(1200px) rotateY(-90deg) translateZ(-60px);
+    opacity: 0;
+  }
+  to {
+    transform: perspective(1200px) rotateY(0) translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes flipRightIn {
+  from {
+    transform: perspective(1200px) rotateY(90deg) translateZ(-60px);
+    opacity: 0;
+  }
+  to {
+    transform: perspective(1200px) rotateY(0) translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes riseDepthIn {
+  from {
+    transform: perspective(1200px) translateZ(-180px) translateY(70px) rotateX(28deg);
+    opacity: 0;
+  }
+  to {
+    transform: perspective(1200px) translateZ(0) translateY(0) rotateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes dropTopIn {
+  from {
+    transform: perspective(1000px) translateY(-90px) rotateX(-55deg);
+    transform-origin: center top;
+    opacity: 0;
+  }
+  to {
+    transform: perspective(1000px) translateY(0) rotateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes zoomDepthIn {
+  from {
+    transform: perspective(1400px) translateZ(-400px) scale(0.55);
+    opacity: 0;
+  }
+  to {
+    transform: perspective(1400px) translateZ(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slide3DLeft {
+  from {
+    transform: perspective(1200px) translateX(-100px) rotateY(45deg) translateZ(-120px);
+    opacity: 0;
+  }
+  to {
+    transform: perspective(1200px) translateX(0) rotateY(0) translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide3DRight {
+  from {
+    transform: perspective(1200px) translateX(100px) rotateY(-45deg) translateZ(-120px);
+    opacity: 0;
+  }
+  to {
+    transform: perspective(1200px) translateX(0) rotateY(0) translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes stampIn {
+  0%   { transform: perspective(800px) scale(1.5) translateZ(200px); opacity: 0; }
+  60%  { transform: perspective(800px) scale(0.95) translateZ(-10px); opacity: 1; }
+  80%  { transform: perspective(800px) scale(1.02) translateZ(4px); }
+  100% { transform: perspective(800px) scale(1) translateZ(0); opacity: 1; }
+}
+
+/* ================================================================
+   KEYFRAMES — Continuous Motion
+   ================================================================ */
+
+@keyframes float3D {
+  0%, 100% {
+    transform: translateY(0) rotateX(2deg) rotateY(0deg) translateZ(0);
+  }
+  33% {
+    transform: translateY(-14px) rotateX(-3deg) rotateY(4deg) translateZ(8px);
+  }
+  66% {
+    transform: translateY(-7px) rotateX(1.5deg) rotateY(-3deg) translateZ(4px);
+  }
+}
+
+@keyframes float3DGentle {
+  0%, 100% { transform: translateY(0) rotateX(1deg); }
+  50%       { transform: translateY(-10px) rotateX(-1deg); }
+}
+
+@keyframes shimmer3DPass {
+  0%   { left: -60%; }
+  100% { left: 140%; }
+}
+
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(220,179,92,0.2), 0 20px 40px rgba(0,0,0,0.15); }
+  50%       { box-shadow: 0 0 40px rgba(220,179,92,0.4), 0 25px 50px rgba(0,0,0,0.18); }
+}
+
+@keyframes numberFlip3D {
+  from {
+    transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+  to {
+    transform: perspective(400px) rotateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes groundPlanePulse {
+  0%, 100% { opacity: 0.7; }
+  50%       { opacity: 1; }
+}
+
+@keyframes titleReveal3D {
+  from {
+    transform: perspective(1000px) rotateX(-30deg) translateY(40px);
+    transform-origin: center bottom;
+    opacity: 0;
+    filter: blur(4px);
+  }
+  to {
+    transform: perspective(1000px) rotateX(0) translateY(0);
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+/* ================================================================
+   CSS FALLBACK INIT STATES
+   (Used when GSAP is unavailable — JS adds .anim-3d-init classes)
+   ================================================================ */
+
+.anim-3d-init {
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+.anim-3d-init.anim-fade-depth {
+  transform: perspective(1200px) translateZ(-280px) rotateX(22deg);
+}
+.anim-3d-init.anim-flip-left {
+  transform: perspective(1200px) rotateY(-90deg) translateZ(-60px);
+}
+.anim-3d-init.anim-flip-right {
+  transform: perspective(1200px) rotateY(90deg) translateZ(-60px);
+}
+.anim-3d-init.anim-rise {
+  transform: perspective(1200px) translateZ(-180px) translateY(70px) rotateX(28deg);
+}
+.anim-3d-init.anim-drop-top {
+  transform: perspective(1000px) translateY(-90px) rotateX(-55deg);
+}
+.anim-3d-init.anim-zoom {
+  transform: perspective(1400px) translateZ(-400px) scale(0.55);
+}
+.anim-3d-init.anim-slide-left {
+  transform: perspective(1200px) translateX(-100px) rotateY(45deg) translateZ(-120px);
+}
+.anim-3d-init.anim-slide-right {
+  transform: perspective(1200px) translateX(100px) rotateY(-45deg) translateZ(-120px);
+}
+
+/* Stagger delays for groups */
+.anim-3d-init:nth-child(1) { transition-delay: 0.00s; }
+.anim-3d-init:nth-child(2) { transition-delay: 0.10s; }
+.anim-3d-init:nth-child(3) { transition-delay: 0.20s; }
+.anim-3d-init:nth-child(4) { transition-delay: 0.30s; }
+.anim-3d-init:nth-child(5) { transition-delay: 0.40s; }
+.anim-3d-init:nth-child(6) { transition-delay: 0.50s; }
+.anim-3d-init:nth-child(7) { transition-delay: 0.60s; }
+.anim-3d-init:nth-child(8) { transition-delay: 0.70s; }
+
+/* Active state — plays the smooth transition */
+.anim-3d-init.anim-3d-active {
+  opacity: 1 !important;
+  transform: perspective(1200px) translateZ(0) rotateX(0) rotateY(0) translateX(0) translateY(0) scale(1) !important;
+  transition: transform 1s cubic-bezier(0.23, 1, 0.32, 1),
+              opacity 0.8s ease;
+}
+
+/* ================================================================
+   CONTINUOUS FLOAT — Apply to floating elements
+   ================================================================ */
+
+.float-3d {
+  animation: float3D 7s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
+
+.float-3d-gentle {
+  animation: float3DGentle 5s ease-in-out infinite;
+}
+
+/* ================================================================
+   CARD SHINE SWEEP
+   ================================================================ */
+
+.card-3d-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-3d-shine::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -60%;
+  width: 35%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.18) 50%,
+    transparent 100%
+  );
+  animation: shimmer3DPass 5s ease infinite;
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+/* ================================================================
+   GLOW PULSE — for premium highlighted cards
+   ================================================================ */
+
+.glow-3d {
+  animation: glowPulse 3s ease-in-out infinite;
+}
+
+/* ================================================================
+   SECTION ENTRANCE ANIMATION TRIGGERS
+   (Direct CSS animation via class — for elements that don't need GSAP)
+   ================================================================ */
+
+.animate-fade-depth    { animation: fadeDepthIn  0.9s cubic-bezier(0.23,1,0.32,1) both; }
+.animate-flip-left     { animation: flipLeftIn   0.9s cubic-bezier(0.23,1,0.32,1) both; }
+.animate-flip-right    { animation: flipRightIn  0.9s cubic-bezier(0.23,1,0.32,1) both; }
+.animate-rise-depth    { animation: riseDepthIn  0.9s cubic-bezier(0.23,1,0.32,1) both; }
+.animate-drop-top      { animation: dropTopIn    0.9s cubic-bezier(0.23,1,0.32,1) both; }
+.animate-zoom-depth    { animation: zoomDepthIn  0.9s cubic-bezier(0.23,1,0.32,1) both; }
+.animate-slide-left    { animation: slide3DLeft  0.9s cubic-bezier(0.23,1,0.32,1) both; }
+.animate-slide-right   { animation: slide3DRight 0.9s cubic-bezier(0.23,1,0.32,1) both; }
+.animate-stamp         { animation: stampIn      0.7s cubic-bezier(0.23,1,0.32,1) both; }
+.animate-title-3d      { animation: titleReveal3D 1s cubic-bezier(0.23,1,0.32,1) both; }
+
+/* Stagger helpers */
+.delay-100 { animation-delay: 0.10s; }
+.delay-200 { animation-delay: 0.20s; }
+.delay-300 { animation-delay: 0.30s; }
+.delay-400 { animation-delay: 0.40s; }
+.delay-500 { animation-delay: 0.50s; }
+.delay-600 { animation-delay: 0.60s; }
+.delay-700 { animation-delay: 0.70s; }
+.delay-800 { animation-delay: 0.80s; }
+
+/* ================================================================
+   PAGE HEADER — 3D ground plane animation
+   ================================================================ */
+
+.page-header::after {
+  animation: groundPlanePulse 4s ease-in-out infinite;
+}
+
+/* ================================================================
+   HERO SHAPES — 3D floating decorative elements
+   ================================================================ */
+
+.hero-shape,
+[class*="floating-shape"],
+[class*="shape-float"] {
+  animation: float3D 8s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
+
+.hero-shape:nth-child(2) { animation-delay: -2s; }
+.hero-shape:nth-child(3) { animation-delay: -4s; }
+.hero-shape:nth-child(4) { animation-delay: -6s; }
+
+/* ================================================================
+   FLOATING PREVIEW CARD — enhanced 3D float
+   ================================================================ */
+
+.floating-preview-card,
+[class*="floating-card"] {
+  animation: float3D 6s ease-in-out infinite !important;
+}
+
+/* ================================================================
+   COUNTER / NUMBER FLIP
+   ================================================================ */
+
+.counter-flip,
+.stat-number.counted {
+  animation: numberFlip3D 0.5s ease-out both;
+}
+
+/* ================================================================
+   MOBILE — simplified animations (performance)
+   ================================================================ */
+
+@media (max-width: 767.98px) {
+  .anim-3d-init {
+    transform: translateY(24px) !important;
+  }
+  .anim-3d-init.anim-3d-active {
+    transform: translateY(0) !important;
+    transition: transform 0.6s ease, opacity 0.6s ease;
+  }
+  .float-3d,
+  .float-3d-gentle {
+    animation: float3DGentle 5s ease-in-out infinite;
+  }
+  .card-3d-shine::after {
+    display: none;
+  }
+  .hero-shape,
+  [class*="floating-shape"] {
+    animation: float3DGentle 6s ease-in-out infinite;
+  }
+}

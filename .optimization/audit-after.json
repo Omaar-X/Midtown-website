@@ -1,0 +1,675 @@
+{
+  "counts": {
+    "all_files": 79,
+    "html": 6,
+    "css": 7,
+    "js": 31,
+    "assets": 28,
+    "images": 28,
+    "fonts": 0,
+    "videos": 0
+  },
+  "bytes": {
+    "images_total": 4005886,
+    "all_files_total": 4326552
+  },
+  "by_extension": {
+    "[no extension]": {
+      "count": 3,
+      "bytes": 2586
+    },
+    ".html": {
+      "count": 6,
+      "bytes": 123859
+    },
+    ".json": {
+      "count": 2,
+      "bytes": 42510
+    },
+    ".js": {
+      "count": 31,
+      "bytes": 82354
+    },
+    ".css": {
+      "count": 7,
+      "bytes": 66698
+    },
+    ".webp": {
+      "count": 28,
+      "bytes": 4005886
+    },
+    ".yml": {
+      "count": 2,
+      "bytes": 2659
+    }
+  },
+  "html_files": [
+    "about.html",
+    "contact.html",
+    "gallery.html",
+    "index.html",
+    "management.html",
+    "projects.html"
+  ],
+  "css_files": [
+    "css/about.css",
+    "css/contact.css",
+    "css/gallery.css",
+    "css/home.css",
+    "css/management.css",
+    "css/projects.css",
+    "css/style.css"
+  ],
+  "js_files": [
+    "backend/Controllers/authController.js",
+    "backend/Controllers/contactController.js",
+    "backend/Controllers/galleryController.js",
+    "backend/Controllers/projectController.js",
+    "backend/Controllers/userController.js",
+    "backend/Middleware/auth.js",
+    "backend/Middleware/error.js",
+    "backend/Middleware/upload.js",
+    "backend/models/Contact.js",
+    "backend/models/Enquiry.js",
+    "backend/models/Gallery.js",
+    "backend/models/Project.js",
+    "backend/models/User.js",
+    "backend/Routes/admin.js",
+    "backend/Routes/auth.js",
+    "backend/Routes/contacts.js",
+    "backend/Routes/gallery.js",
+    "backend/Routes/projects.js",
+    "backend/Routes/Utilities/Configuration/cloudinary.js",
+    "backend/Routes/Utilities/Configuration/database.js",
+    "backend/Routes/Utilities/errorResponse.js",
+    "backend/Routes/Utilities/generateToken.js",
+    "backend/Routes/Utilities/sendEmail.js",
+    "backend/server.js",
+    "js/about.js",
+    "js/contact.js",
+    "js/gallery.js",
+    "js/home.js",
+    "js/main.js",
+    "js/management.js",
+    "js/projects.js"
+  ],
+  "image_info": [
+    {
+      "path": "img/chairman.webp",
+      "bytes": 12874,
+      "kb": 12.6,
+      "mb": 0.01,
+      "width": 495,
+      "height": 585,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/coxs.webp",
+      "bytes": 209128,
+      "kb": 204.2,
+      "mb": 0.2,
+      "width": 1400,
+      "height": 932,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/coxs1.webp",
+      "bytes": 206334,
+      "kb": 201.5,
+      "mb": 0.2,
+      "width": 1200,
+      "height": 799,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/coxs2.webp",
+      "bytes": 183582,
+      "kb": 179.3,
+      "mb": 0.18,
+      "width": 1200,
+      "height": 799,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/coxs3.webp",
+      "bytes": 115370,
+      "kb": 112.7,
+      "mb": 0.11,
+      "width": 1200,
+      "height": 799,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/coxs4.webp",
+      "bytes": 135308,
+      "kb": 132.1,
+      "mb": 0.13,
+      "width": 1200,
+      "height": 799,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/coxs5.webp",
+      "bytes": 111614,
+      "kb": 109.0,
+      "mb": 0.11,
+      "width": 1200,
+      "height": 799,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/coxs6.webp",
+      "bytes": 86584,
+      "kb": 84.6,
+      "mb": 0.08,
+      "width": 1200,
+      "height": 799,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/coxs7.webp",
+      "bytes": 114176,
+      "kb": 111.5,
+      "mb": 0.11,
+      "width": 1200,
+      "height": 799,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/coxs8.webp",
+      "bytes": 79714,
+      "kb": 77.8,
+      "mb": 0.08,
+      "width": 1200,
+      "height": 799,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/default-avatar.webp",
+      "bytes": 9982,
+      "kb": 9.7,
+      "mb": 0.01,
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "img/hero-land.webp",
+      "bytes": 616312,
+      "kb": 601.9,
+      "mb": 0.59,
+      "width": 1920,
+      "height": 3840,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/logo.webp",
+      "bytes": 11628,
+      "kb": 11.4,
+      "mb": 0.01,
+      "width": 640,
+      "height": 640,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/pic-1.webp",
+      "bytes": 159150,
+      "kb": 155.4,
+      "mb": 0.15,
+      "width": 1200,
+      "height": 677,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/pic-10.webp",
+      "bytes": 152762,
+      "kb": 149.2,
+      "mb": 0.15,
+      "width": 1200,
+      "height": 903,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/pic-11.webp",
+      "bytes": 112748,
+      "kb": 110.1,
+      "mb": 0.11,
+      "width": 1058,
+      "height": 720,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/pic-12.webp",
+      "bytes": 163578,
+      "kb": 159.7,
+      "mb": 0.16,
+      "width": 1138,
+      "height": 702,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/pic-13.webp",
+      "bytes": 121532,
+      "kb": 118.7,
+      "mb": 0.12,
+      "width": 1150,
+      "height": 757,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/pic-15.webp",
+      "bytes": 70714,
+      "kb": 69.1,
+      "mb": 0.07,
+      "width": 1000,
+      "height": 713,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/pic-17.webp",
+      "bytes": 67552,
+      "kb": 66.0,
+      "mb": 0.06,
+      "width": 984,
+      "height": 764,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/pic-3.webp",
+      "bytes": 118212,
+      "kb": 115.4,
+      "mb": 0.11,
+      "width": 1200,
+      "height": 677,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/pic-4.webp",
+      "bytes": 152616,
+      "kb": 149.0,
+      "mb": 0.15,
+      "width": 1200,
+      "height": 903,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/pic-5.webp",
+      "bytes": 173458,
+      "kb": 169.4,
+      "mb": 0.17,
+      "width": 1200,
+      "height": 903,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/pic-6.webp",
+      "bytes": 111606,
+      "kb": 109.0,
+      "mb": 0.11,
+      "width": 1200,
+      "height": 904,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/pic-7.webp",
+      "bytes": 213946,
+      "kb": 208.9,
+      "mb": 0.2,
+      "width": 1200,
+      "height": 904,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/pic-8.webp",
+      "bytes": 157944,
+      "kb": 154.2,
+      "mb": 0.15,
+      "width": 1200,
+      "height": 904,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/pic-9.webp",
+      "bytes": 105318,
+      "kb": 102.8,
+      "mb": 0.1,
+      "width": 1200,
+      "height": 848,
+      "mode": "RGB"
+    },
+    {
+      "path": "img/purbachal-land.webp",
+      "bytes": 232144,
+      "kb": 226.7,
+      "mb": 0.22,
+      "width": 1400,
+      "height": 764,
+      "mode": "RGB"
+    }
+  ],
+  "largest_files": [
+    {
+      "path": "img/hero-land.webp",
+      "bytes": 616312,
+      "mb": 0.59
+    },
+    {
+      "path": "img/purbachal-land.webp",
+      "bytes": 232144,
+      "mb": 0.22
+    },
+    {
+      "path": "img/pic-7.webp",
+      "bytes": 213946,
+      "mb": 0.2
+    },
+    {
+      "path": "img/coxs.webp",
+      "bytes": 209128,
+      "mb": 0.2
+    },
+    {
+      "path": "img/coxs1.webp",
+      "bytes": 206334,
+      "mb": 0.2
+    },
+    {
+      "path": "img/coxs2.webp",
+      "bytes": 183582,
+      "mb": 0.18
+    },
+    {
+      "path": "img/pic-5.webp",
+      "bytes": 173458,
+      "mb": 0.17
+    },
+    {
+      "path": "img/pic-12.webp",
+      "bytes": 163578,
+      "mb": 0.16
+    },
+    {
+      "path": "img/pic-1.webp",
+      "bytes": 159150,
+      "mb": 0.15
+    },
+    {
+      "path": "img/pic-8.webp",
+      "bytes": 157944,
+      "mb": 0.15
+    },
+    {
+      "path": "img/pic-10.webp",
+      "bytes": 152762,
+      "mb": 0.15
+    },
+    {
+      "path": "img/pic-4.webp",
+      "bytes": 152616,
+      "mb": 0.15
+    },
+    {
+      "path": "img/coxs4.webp",
+      "bytes": 135308,
+      "mb": 0.13
+    },
+    {
+      "path": "img/pic-13.webp",
+      "bytes": 121532,
+      "mb": 0.12
+    },
+    {
+      "path": "img/pic-3.webp",
+      "bytes": 118212,
+      "mb": 0.11
+    },
+    {
+      "path": "img/coxs3.webp",
+      "bytes": 115370,
+      "mb": 0.11
+    },
+    {
+      "path": "img/coxs7.webp",
+      "bytes": 114176,
+      "mb": 0.11
+    },
+    {
+      "path": "img/pic-11.webp",
+      "bytes": 112748,
+      "mb": 0.11
+    },
+    {
+      "path": "img/coxs5.webp",
+      "bytes": 111614,
+      "mb": 0.11
+    },
+    {
+      "path": "img/pic-6.webp",
+      "bytes": 111606,
+      "mb": 0.11
+    },
+    {
+      "path": "img/pic-9.webp",
+      "bytes": 105318,
+      "mb": 0.1
+    },
+    {
+      "path": "img/coxs6.webp",
+      "bytes": 86584,
+      "mb": 0.08
+    },
+    {
+      "path": "img/coxs8.webp",
+      "bytes": 79714,
+      "mb": 0.08
+    },
+    {
+      "path": "img/pic-15.webp",
+      "bytes": 70714,
+      "mb": 0.07
+    },
+    {
+      "path": "img/pic-17.webp",
+      "bytes": 67552,
+      "mb": 0.06
+    },
+    {
+      "path": "backend/package-lock.json",
+      "bytes": 41610,
+      "mb": 0.04
+    },
+    {
+      "path": "index.html",
+      "bytes": 32120,
+      "mb": 0.03
+    },
+    {
+      "path": "about.html",
+      "bytes": 21025,
+      "mb": 0.02
+    },
+    {
+      "path": "gallery.html",
+      "bytes": 20044,
+      "mb": 0.02
+    },
+    {
+      "path": "projects.html",
+      "bytes": 18229,
+      "mb": 0.02
+    }
+  ],
+  "duplicates": [],
+  "unused_assets": [],
+  "missing_assets": [],
+  "broken_internal_links": [],
+  "placeholder_links": [],
+  "missing_alt_tags": [],
+  "page_meta": {
+    "about.html": {
+      "title": "About Us | MIDTOWN AABASHON LTD",
+      "description": "Learn about MIDTOWN AABASHON LTD, our mission, vision, values, leadership, and commitment to transparent land development in Bangladesh.",
+      "keywords": "about Midtown Aabashon, real estate company Bangladesh, land development mission, Purbachal developer, trusted land company",
+      "og:title": "About Us | MIDTOWN AABASHON LTD",
+      "og:description": "Learn about MIDTOWN AABASHON LTD, our mission, vision, values, leadership, and commitment to transparent land development in Bangladesh.",
+      "twitter:card": "summary_large_image",
+      "canonical": "https://midtowneaabashon.com/about.html",
+      "h1_count": 1,
+      "headings": [
+        "h1",
+        "h2",
+        "h2",
+        "h3",
+        "h3",
+        "h2",
+        "h5",
+        "h5",
+        "h5",
+        "h5",
+        "h2",
+        "h2",
+        "h5",
+        "h5",
+        "h5",
+        "h5",
+        "h2",
+        "h6",
+        "h6"
+      ],
+      "img_count": 3,
+      "missing_alt": 0
+    },
+    "contact.html": {
+      "title": "Contact Us | MIDTOWN AABASHON LTD",
+      "description": "Contact MIDTOWN AABASHON LTD for plot enquiries, site visits, project details, and real estate investment support in Bangladesh.",
+      "keywords": "contact Midtown Aabashon, Purbachal plot enquiry, land project site visit, real estate contact Dhaka, plot booking Bangladesh",
+      "og:title": "Contact Us | MIDTOWN AABASHON LTD",
+      "og:description": "Contact MIDTOWN AABASHON LTD for plot enquiries, site visits, project details, and real estate investment support in Bangladesh.",
+      "twitter:card": "summary_large_image",
+      "canonical": "https://midtowneaabashon.com/contact.html",
+      "h1_count": 1,
+      "headings": [
+        "h1",
+        "h3",
+        "h5",
+        "h5",
+        "h5",
+        "h5",
+        "h5",
+        "h3",
+        "h3",
+        "h6",
+        "h6"
+      ],
+      "img_count": 2,
+      "missing_alt": 0
+    },
+    "gallery.html": {
+      "title": "Gallery | MIDTOWN AABASHON LTD",
+      "description": "Browse MIDTOWN AABASHON LTD project gallery images, including Purbachal SouthEast Valley site visuals and Ocean Breeze Cox's Bazar project photos.",
+      "keywords": "MIDTOWN gallery, Purbachal project photos, land project gallery, Coxs Bazar resort photos, site visit images",
+      "og:title": "Gallery | MIDTOWN AABASHON LTD",
+      "og:description": "Browse MIDTOWN AABASHON LTD project gallery images, including Purbachal SouthEast Valley site visuals and Ocean Breeze Cox's Bazar project photos.",
+      "twitter:card": "summary_large_image",
+      "canonical": "https://midtowneaabashon.com/gallery.html",
+      "h1_count": 1,
+      "headings": [
+        "h1",
+        "h2",
+        "h5",
+        "h4",
+        "h5",
+        "h5",
+        "h5",
+        "h5",
+        "h2",
+        "h6",
+        "h6",
+        "h6",
+        "h6"
+      ],
+      "img_count": 5,
+      "missing_alt": 0
+    },
+    "index.html": {
+      "title": "MIDTOWN AABASHON LTD | Premium Land Developer in Purbachal",
+      "description": "MIDTOWN AABASHON LTD is a trusted Bangladeshi land development company offering premium plots, legal support, and investment-ready projects in Purbachal and nearby Dhaka growth corridors.",
+      "keywords": "MIDTOWN AABASHON LTD, Midtown Aabashon, Purbachal land, land developer Bangladesh, plot selling company Dhaka, real estate development, residential plots",
+      "og:title": "MIDTOWN AABASHON LTD | Premium Land Developer in Purbachal",
+      "og:description": "MIDTOWN AABASHON LTD is a trusted Bangladeshi land development company offering premium plots, legal support, and investment-ready projects in Purbachal and nearby Dhaka growth corridors.",
+      "twitter:card": "summary_large_image",
+      "canonical": "https://midtowneaabashon.com/",
+      "h1_count": 1,
+      "headings": [
+        "h1",
+        "h6",
+        "h5",
+        "h2",
+        "h4",
+        "h4",
+        "h4",
+        "h4",
+        "h2",
+        "h4",
+        "h4",
+        "h4",
+        "h2",
+        "h6",
+        "h6",
+        "h6",
+        "h2",
+        "h6",
+        "h6",
+        "h6"
+      ],
+      "img_count": 6,
+      "missing_alt": 0
+    },
+    "management.html": {
+      "title": "Management Team | MIDTOWN AABASHON LTD",
+      "description": "Meet the management team of MIDTOWN AABASHON LTD and learn about the leadership behind its trusted land development projects.",
+      "keywords": "MIDTOWN management, Md Monjurul Alam Mazumder, real estate leadership Bangladesh, land developer management",
+      "og:title": "Management Team | MIDTOWN AABASHON LTD",
+      "og:description": "Meet the management team of MIDTOWN AABASHON LTD and learn about the leadership behind its trusted land development projects.",
+      "twitter:card": "summary_large_image",
+      "canonical": "https://midtowneaabashon.com/management.html",
+      "h1_count": 1,
+      "headings": [
+        "h1",
+        "h2",
+        "h2",
+        "h5",
+        "h5",
+        "h5",
+        "h2",
+        "h2",
+        "h6",
+        "h6"
+      ],
+      "img_count": 3,
+      "missing_alt": 0
+    },
+    "projects.html": {
+      "title": "Our Projects | MIDTOWN AABASHON LTD",
+      "description": "Explore MIDTOWN AABASHON LTD projects including Purbachal SouthEast Valley, upcoming Purbachal land opportunities, and Ocean Breeze Cox's Bazar.",
+      "keywords": "MIDTOWN projects, Purbachal SouthEast Valley, Purbachal plots, Coxs Bazar resort project, land projects Bangladesh",
+      "og:title": "Our Projects | MIDTOWN AABASHON LTD",
+      "og:description": "Explore MIDTOWN AABASHON LTD projects including Purbachal SouthEast Valley, upcoming Purbachal land opportunities, and Ocean Breeze Cox's Bazar.",
+      "twitter:card": "summary_large_image",
+      "canonical": "https://midtowneaabashon.com/projects.html",
+      "h1_count": 1,
+      "headings": [
+        "h1",
+        "h4",
+        "h4",
+        "h4",
+        "h2",
+        "h2",
+        "h6",
+        "h6"
+      ],
+      "img_count": 5,
+      "missing_alt": 0
+    }
+  }
+}

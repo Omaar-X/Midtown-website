@@ -1,0 +1,174 @@
+/* Clean 2D animation layer for MIDTOWN AABASHON LTD */
+:root {
+  --anim-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.main-navbar {
+  transition: padding 0.28s ease, box-shadow 0.28s ease, background 0.28s ease;
+}
+
+.hero-section,
+.about-hero,
+.projects-hero,
+.gallery-hero,
+.page-header {
+  position: relative;
+}
+
+.hero-section .container,
+.about-hero .container,
+.projects-hero .container,
+.gallery-hero .container,
+.page-header .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-kicker,
+.about-hero-kicker,
+.section-kicker,
+.project-status,
+.profile-kicker,
+.tag {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hero-kicker:hover,
+.about-hero-kicker:hover,
+.project-status:hover,
+.profile-kicker:hover,
+.tag:hover {
+  transform: translateY(-2px);
+}
+
+.feature-card,
+.project-showcase-card,
+.project-card,
+.testimonial-card,
+.mv-card,
+.value-card-new,
+.achieve-card,
+.highlight-card,
+.chairman-card,
+.message-box,
+.team-cta,
+.contact-info-section .contact-item,
+.contact-form-section,
+.map-card,
+.map-container,
+.gallery-card,
+.gal-info-card,
+.coming-soon-wrap,
+.cta-box,
+.location-section,
+.projects-cta {
+  transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
+}
+
+.feature-card:hover,
+.project-showcase-card:hover,
+.project-card:hover,
+.testimonial-card:hover,
+.mv-card:hover,
+.value-card-new:hover,
+.achieve-card:hover,
+.highlight-card:hover,
+.chairman-card:hover,
+.contact-info-section .contact-item:hover,
+.gal-info-card:hover,
+.coming-soon-wrap:hover {
+  transform: translateY(-6px);
+}
+
+.normal-reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.68s var(--anim-ease), transform 0.68s var(--anim-ease);
+}
+
+.normal-reveal.reveal-left {
+  transform: translateX(-28px);
+}
+
+.normal-reveal.reveal-right {
+  transform: translateX(28px);
+}
+
+.normal-reveal.reveal-scale {
+  transform: translateY(18px) scale(0.96);
+}
+
+.normal-reveal.is-visible {
+  opacity: 1;
+  transform: translate(0, 0) scale(1);
+}
+
+.hero-normal-in {
+  animation: heroNormalIn 0.85s var(--anim-ease) both;
+}
+
+.hero-normal-in.delay-1 {
+  animation-delay: 0.12s;
+}
+
+.hero-normal-in.delay-2 {
+  animation-delay: 0.24s;
+}
+
+.hero-normal-in.delay-3 {
+  animation-delay: 0.36s;
+}
+
+@keyframes heroNormalIn {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.btn-primary-gradient,
+.btn-outline-primary,
+.btn-outline-light,
+.btn-call-now,
+.btn-white,
+.btn-outline-white,
+.btn-cs,
+.btn-cs-outline {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.25s ease, color 0.25s ease;
+}
+
+.btn-primary-gradient:hover,
+.btn-outline-primary:hover,
+.btn-outline-light:hover,
+.btn-call-now:hover,
+.btn-white:hover,
+.btn-outline-white:hover,
+.btn-cs:hover,
+.btn-cs-outline:hover {
+  transform: translateY(-3px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .normal-reveal,
+  .normal-reveal.reveal-left,
+  .normal-reveal.reveal-right,
+  .normal-reveal.reveal-scale {
+    opacity: 1;
+    transform: none;
+  }
+}

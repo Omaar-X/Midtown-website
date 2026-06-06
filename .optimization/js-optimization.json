@@ -1,0 +1,59 @@
+{
+  "files": [
+    {
+      "file": "js/about.js",
+      "oldBytes": 4798,
+      "newBytes": 2987,
+      "savedBytes": 1811,
+      "savedPercent": 37.74
+    },
+    {
+      "file": "js/contact.js",
+      "oldBytes": 6159,
+      "newBytes": 4199,
+      "savedBytes": 1960,
+      "savedPercent": 31.82
+    },
+    {
+      "file": "js/gallery.js",
+      "oldBytes": 9882,
+      "newBytes": 6247,
+      "savedBytes": 3635,
+      "savedPercent": 36.78
+    },
+    {
+      "file": "js/home.js",
+      "oldBytes": 10696,
+      "newBytes": 6541,
+      "savedBytes": 4155,
+      "savedPercent": 38.85
+    },
+    {
+      "file": "js/main.js",
+      "oldBytes": 4814,
+      "newBytes": 3399,
+      "savedBytes": 1415,
+      "savedPercent": 29.39
+    },
+    {
+      "file": "js/management.js",
+      "oldBytes": 2628,
+      "newBytes": 1951,
+      "savedBytes": 677,
+      "savedPercent": 25.76
+    },
+    {
+      "file": "js/projects.js",
+      "oldBytes": 2246,
+      "newBytes": 1816,
+      "savedBytes": 430,
+      "savedPercent": 19.15
+    }
+  ],
+  "totals": {
+    "oldBytes": 41223,
+    "newBytes": 27140,
+    "savedBytes": 14083,
+    "savedPercent": 34.16
+  }
+}

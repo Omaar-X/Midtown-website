@@ -1,0 +1,595 @@
+{
+  "summary": {
+    "tested": 36,
+    "pages": 6,
+    "widths": [
+      320,
+      375,
+      425,
+      768,
+      1024,
+      1440
+    ],
+    "overflow": [],
+    "missingAlt": [],
+    "titlesMissing": []
+  },
+  "results": [
+    {
+      "width": 320,
+      "page": "index.html",
+      "metrics": {
+        "asyncImages": 6,
+        "bodyWidth": 320,
+        "h1": 1,
+        "images": 6,
+        "lazyImages": 4,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "MIDTOWN AABASHON LTD | Premium Land Developer in Purbachal",
+        "viewportWidth": 320,
+        "webpImages": 6
+      }
+    },
+    {
+      "width": 320,
+      "page": "about.html",
+      "metrics": {
+        "asyncImages": 3,
+        "bodyWidth": 305,
+        "h1": 1,
+        "images": 3,
+        "lazyImages": 2,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "About Us | MIDTOWN AABASHON LTD",
+        "viewportWidth": 305,
+        "webpImages": 3
+      }
+    },
+    {
+      "width": 320,
+      "page": "projects.html",
+      "metrics": {
+        "asyncImages": 5,
+        "bodyWidth": 305,
+        "h1": 1,
+        "images": 5,
+        "lazyImages": 4,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Our Projects | MIDTOWN AABASHON LTD",
+        "viewportWidth": 305,
+        "webpImages": 5
+      }
+    },
+    {
+      "width": 320,
+      "page": "gallery.html",
+      "metrics": {
+        "asyncImages": 27,
+        "bodyWidth": 305,
+        "h1": 1,
+        "images": 27,
+        "lazyImages": 26,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Gallery | MIDTOWN AABASHON LTD",
+        "viewportWidth": 305,
+        "webpImages": 27
+      }
+    },
+    {
+      "width": 320,
+      "page": "management.html",
+      "metrics": {
+        "asyncImages": 3,
+        "bodyWidth": 305,
+        "h1": 1,
+        "images": 3,
+        "lazyImages": 2,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Management Team | MIDTOWN AABASHON LTD",
+        "viewportWidth": 305,
+        "webpImages": 3
+      }
+    },
+    {
+      "width": 320,
+      "page": "contact.html",
+      "metrics": {
+        "asyncImages": 2,
+        "bodyWidth": 305,
+        "h1": 1,
+        "images": 2,
+        "lazyImages": 1,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Contact Us | MIDTOWN AABASHON LTD",
+        "viewportWidth": 305,
+        "webpImages": 2
+      }
+    },
+    {
+      "width": 375,
+      "page": "index.html",
+      "metrics": {
+        "asyncImages": 6,
+        "bodyWidth": 375,
+        "h1": 1,
+        "images": 6,
+        "lazyImages": 4,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "MIDTOWN AABASHON LTD | Premium Land Developer in Purbachal",
+        "viewportWidth": 375,
+        "webpImages": 6
+      }
+    },
+    {
+      "width": 375,
+      "page": "about.html",
+      "metrics": {
+        "asyncImages": 3,
+        "bodyWidth": 360,
+        "h1": 1,
+        "images": 3,
+        "lazyImages": 2,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "About Us | MIDTOWN AABASHON LTD",
+        "viewportWidth": 360,
+        "webpImages": 3
+      }
+    },
+    {
+      "width": 375,
+      "page": "projects.html",
+      "metrics": {
+        "asyncImages": 5,
+        "bodyWidth": 360,
+        "h1": 1,
+        "images": 5,
+        "lazyImages": 4,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Our Projects | MIDTOWN AABASHON LTD",
+        "viewportWidth": 360,
+        "webpImages": 5
+      }
+    },
+    {
+      "width": 375,
+      "page": "gallery.html",
+      "metrics": {
+        "asyncImages": 27,
+        "bodyWidth": 360,
+        "h1": 1,
+        "images": 27,
+        "lazyImages": 26,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Gallery | MIDTOWN AABASHON LTD",
+        "viewportWidth": 360,
+        "webpImages": 27
+      }
+    },
+    {
+      "width": 375,
+      "page": "management.html",
+      "metrics": {
+        "asyncImages": 3,
+        "bodyWidth": 360,
+        "h1": 1,
+        "images": 3,
+        "lazyImages": 2,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Management Team | MIDTOWN AABASHON LTD",
+        "viewportWidth": 360,
+        "webpImages": 3
+      }
+    },
+    {
+      "width": 375,
+      "page": "contact.html",
+      "metrics": {
+        "asyncImages": 2,
+        "bodyWidth": 360,
+        "h1": 1,
+        "images": 2,
+        "lazyImages": 1,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Contact Us | MIDTOWN AABASHON LTD",
+        "viewportWidth": 360,
+        "webpImages": 2
+      }
+    },
+    {
+      "width": 425,
+      "page": "index.html",
+      "metrics": {
+        "asyncImages": 6,
+        "bodyWidth": 425,
+        "h1": 1,
+        "images": 6,
+        "lazyImages": 4,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "MIDTOWN AABASHON LTD | Premium Land Developer in Purbachal",
+        "viewportWidth": 425,
+        "webpImages": 6
+      }
+    },
+    {
+      "width": 425,
+      "page": "about.html",
+      "metrics": {
+        "asyncImages": 3,
+        "bodyWidth": 410,
+        "h1": 1,
+        "images": 3,
+        "lazyImages": 2,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "About Us | MIDTOWN AABASHON LTD",
+        "viewportWidth": 410,
+        "webpImages": 3
+      }
+    },
+    {
+      "width": 425,
+      "page": "projects.html",
+      "metrics": {
+        "asyncImages": 5,
+        "bodyWidth": 410,
+        "h1": 1,
+        "images": 5,
+        "lazyImages": 4,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Our Projects | MIDTOWN AABASHON LTD",
+        "viewportWidth": 410,
+        "webpImages": 5
+      }
+    },
+    {
+      "width": 425,
+      "page": "gallery.html",
+      "metrics": {
+        "asyncImages": 27,
+        "bodyWidth": 410,
+        "h1": 1,
+        "images": 27,
+        "lazyImages": 26,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Gallery | MIDTOWN AABASHON LTD",
+        "viewportWidth": 410,
+        "webpImages": 27
+      }
+    },
+    {
+      "width": 425,
+      "page": "management.html",
+      "metrics": {
+        "asyncImages": 3,
+        "bodyWidth": 410,
+        "h1": 1,
+        "images": 3,
+        "lazyImages": 2,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Management Team | MIDTOWN AABASHON LTD",
+        "viewportWidth": 410,
+        "webpImages": 3
+      }
+    },
+    {
+      "width": 425,
+      "page": "contact.html",
+      "metrics": {
+        "asyncImages": 2,
+        "bodyWidth": 410,
+        "h1": 1,
+        "images": 2,
+        "lazyImages": 1,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Contact Us | MIDTOWN AABASHON LTD",
+        "viewportWidth": 410,
+        "webpImages": 2
+      }
+    },
+    {
+      "width": 768,
+      "page": "index.html",
+      "metrics": {
+        "asyncImages": 6,
+        "bodyWidth": 768,
+        "h1": 1,
+        "images": 6,
+        "lazyImages": 4,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "MIDTOWN AABASHON LTD | Premium Land Developer in Purbachal",
+        "viewportWidth": 768,
+        "webpImages": 6
+      }
+    },
+    {
+      "width": 768,
+      "page": "about.html",
+      "metrics": {
+        "asyncImages": 3,
+        "bodyWidth": 753,
+        "h1": 1,
+        "images": 3,
+        "lazyImages": 2,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "About Us | MIDTOWN AABASHON LTD",
+        "viewportWidth": 753,
+        "webpImages": 3
+      }
+    },
+    {
+      "width": 768,
+      "page": "projects.html",
+      "metrics": {
+        "asyncImages": 5,
+        "bodyWidth": 753,
+        "h1": 1,
+        "images": 5,
+        "lazyImages": 4,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Our Projects | MIDTOWN AABASHON LTD",
+        "viewportWidth": 753,
+        "webpImages": 5
+      }
+    },
+    {
+      "width": 768,
+      "page": "gallery.html",
+      "metrics": {
+        "asyncImages": 27,
+        "bodyWidth": 753,
+        "h1": 1,
+        "images": 27,
+        "lazyImages": 26,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Gallery | MIDTOWN AABASHON LTD",
+        "viewportWidth": 753,
+        "webpImages": 27
+      }
+    },
+    {
+      "width": 768,
+      "page": "management.html",
+      "metrics": {
+        "asyncImages": 3,
+        "bodyWidth": 753,
+        "h1": 1,
+        "images": 3,
+        "lazyImages": 2,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Management Team | MIDTOWN AABASHON LTD",
+        "viewportWidth": 753,
+        "webpImages": 3
+      }
+    },
+    {
+      "width": 768,
+      "page": "contact.html",
+      "metrics": {
+        "asyncImages": 2,
+        "bodyWidth": 753,
+        "h1": 1,
+        "images": 2,
+        "lazyImages": 1,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Contact Us | MIDTOWN AABASHON LTD",
+        "viewportWidth": 753,
+        "webpImages": 2
+      }
+    },
+    {
+      "width": 1024,
+      "page": "index.html",
+      "metrics": {
+        "asyncImages": 6,
+        "bodyWidth": 1024,
+        "h1": 1,
+        "images": 6,
+        "lazyImages": 4,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "MIDTOWN AABASHON LTD | Premium Land Developer in Purbachal",
+        "viewportWidth": 1024,
+        "webpImages": 6
+      }
+    },
+    {
+      "width": 1024,
+      "page": "about.html",
+      "metrics": {
+        "asyncImages": 3,
+        "bodyWidth": 1009,
+        "h1": 1,
+        "images": 3,
+        "lazyImages": 2,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "About Us | MIDTOWN AABASHON LTD",
+        "viewportWidth": 1009,
+        "webpImages": 3
+      }
+    },
+    {
+      "width": 1024,
+      "page": "projects.html",
+      "metrics": {
+        "asyncImages": 5,
+        "bodyWidth": 1009,
+        "h1": 1,
+        "images": 5,
+        "lazyImages": 4,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Our Projects | MIDTOWN AABASHON LTD",
+        "viewportWidth": 1009,
+        "webpImages": 5
+      }
+    },
+    {
+      "width": 1024,
+      "page": "gallery.html",
+      "metrics": {
+        "asyncImages": 27,
+        "bodyWidth": 1009,
+        "h1": 1,
+        "images": 27,
+        "lazyImages": 26,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Gallery | MIDTOWN AABASHON LTD",
+        "viewportWidth": 1009,
+        "webpImages": 27
+      }
+    },
+    {
+      "width": 1024,
+      "page": "management.html",
+      "metrics": {
+        "asyncImages": 3,
+        "bodyWidth": 1009,
+        "h1": 1,
+        "images": 3,
+        "lazyImages": 2,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Management Team | MIDTOWN AABASHON LTD",
+        "viewportWidth": 1009,
+        "webpImages": 3
+      }
+    },
+    {
+      "width": 1024,
+      "page": "contact.html",
+      "metrics": {
+        "asyncImages": 2,
+        "bodyWidth": 1009,
+        "h1": 1,
+        "images": 2,
+        "lazyImages": 1,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Contact Us | MIDTOWN AABASHON LTD",
+        "viewportWidth": 1009,
+        "webpImages": 2
+      }
+    },
+    {
+      "width": 1440,
+      "page": "index.html",
+      "metrics": {
+        "asyncImages": 6,
+        "bodyWidth": 1440,
+        "h1": 1,
+        "images": 6,
+        "lazyImages": 4,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "MIDTOWN AABASHON LTD | Premium Land Developer in Purbachal",
+        "viewportWidth": 1440,
+        "webpImages": 6
+      }
+    },
+    {
+      "width": 1440,
+      "page": "about.html",
+      "metrics": {
+        "asyncImages": 3,
+        "bodyWidth": 1425,
+        "h1": 1,
+        "images": 3,
+        "lazyImages": 2,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "About Us | MIDTOWN AABASHON LTD",
+        "viewportWidth": 1425,
+        "webpImages": 3
+      }
+    },
+    {
+      "width": 1440,
+      "page": "projects.html",
+      "metrics": {
+        "asyncImages": 5,
+        "bodyWidth": 1425,
+        "h1": 1,
+        "images": 5,
+        "lazyImages": 4,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Our Projects | MIDTOWN AABASHON LTD",
+        "viewportWidth": 1425,
+        "webpImages": 5
+      }
+    },
+    {
+      "width": 1440,
+      "page": "gallery.html",
+      "metrics": {
+        "asyncImages": 27,
+        "bodyWidth": 1425,
+        "h1": 1,
+        "images": 27,
+        "lazyImages": 26,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Gallery | MIDTOWN AABASHON LTD",
+        "viewportWidth": 1425,
+        "webpImages": 27
+      }
+    },
+    {
+      "width": 1440,
+      "page": "management.html",
+      "metrics": {
+        "asyncImages": 3,
+        "bodyWidth": 1425,
+        "h1": 1,
+        "images": 3,
+        "lazyImages": 2,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Management Team | MIDTOWN AABASHON LTD",
+        "viewportWidth": 1425,
+        "webpImages": 3
+      }
+    },
+    {
+      "width": 1440,
+      "page": "contact.html",
+      "metrics": {
+        "asyncImages": 2,
+        "bodyWidth": 1425,
+        "h1": 1,
+        "images": 2,
+        "lazyImages": 1,
+        "missingAlt": [],
+        "overflowX": false,
+        "title": "Contact Us | MIDTOWN AABASHON LTD",
+        "viewportWidth": 1425,
+        "webpImages": 2
+      }
+    }
+  ]
+}
